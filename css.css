@@ -1,0 +1,22 @@
+.files{
+    display: flex;
+    justify-content: space-between;
+}
+
+#html, #css, #js{
+    width:10em;
+    height:10em;
+    
+}
+.head{
+    background-color: grey;
+    font-size: large;
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+}
+#output{
+    width:100%;
+    height: 70vh;
+    margin-left: 2px;
+}
