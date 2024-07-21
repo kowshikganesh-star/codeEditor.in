@@ -20,3 +20,12 @@
     height: 70vh;
     margin-left: 2px;
 }
+h1::first-line{
+    color:rgb(22, 41, 3);
+}
+
+h1::first-letter{
+font-size: 1.5em;
+color:cadetblue;
+}
+

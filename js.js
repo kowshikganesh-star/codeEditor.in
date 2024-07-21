@@ -27,7 +27,7 @@ var cssEditor = CodeMirror.fromTextArea(document.getElementById("css"),{
    
 });
 var jsEditor = CodeMirror.fromTextArea(document.getElementById("js"),{
-    
+
     mode:"javascript",
     theme:"dracula",
     lineNumbers:true,
@@ -36,32 +36,32 @@ var jsEditor = CodeMirror.fromTextArea(document.getElementById("js"),{
 });
 
 function wid(){
-    htmlEditor.setSize("500","0")
+    htmlEditor.setSize("35em","0")
     
 }
 function puls(){
-    htmlEditor.setSize("500","300")
+    htmlEditor.setSize("35em","20em")
 }
 
 
 function wid1(){
-    cssEditor.setSize("500","0")
+    cssEditor.setSize("35em","0")
 }
 function puls1(){
-    cssEditor.setSize("500","300")
+    cssEditor.setSize("35em","20em")
 }
 
 
 function wid2(){
-    jsEditor.setSize("500","0")
+    jsEditor.setSize("35em","0%")
 }
 function puls2(){
-    jsEditor.setSize("500","300")
+    jsEditor.setSize("35em","20em")
 }
   
-htmlEditor.setSize("400","300");
-cssEditor.setSize("390","300");
-jsEditor.setSize("400","300");
+htmlEditor.setSize("35em","20em");
+cssEditor.setSize("35em","20em");
+jsEditor.setSize("35em","20em");
 
 var iframe = document.getElementById("output");
 
