@@ -36,32 +36,32 @@ var jsEditor = CodeMirror.fromTextArea(document.getElementById("js"),{
 });
 
 function wid(){
-    htmlEditor.setSize("25em","0")
+    htmlEditor.setSize("30em","0")
     
 }
 function puls(){
-    htmlEditor.setSize("25em","20em")
+    htmlEditor.setSize("30em","20em")
 }
 
 
 function wid1(){
-    cssEditor.setSize("25em","0")
+    cssEditor.setSize("30em","0")
 }
 function puls1(){
-    cssEditor.setSize("25em","20em")
+    cssEditor.setSize("30em","20em")
 }
 
 
 function wid2(){
-    jsEditor.setSize("25em","0%")
+    jsEditor.setSize("30em","0%")
 }
 function puls2(){
-    jsEditor.setSize("25em","20em")
+    jsEditor.setSize("30em","20em")
 }
   
-htmlEditor.setSize("25em","20em");
-cssEditor.setSize("25em","20em");
-jsEditor.setSize("25em","20em");
+htmlEditor.setSize("30em","20em");
+cssEditor.setSize("30em","20em");
+jsEditor.setSize("30em","20em");
 
 var iframe = document.getElementById("output");
 
